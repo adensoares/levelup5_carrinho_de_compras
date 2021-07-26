@@ -95,7 +95,13 @@ class _HomePageState extends State<HomePage> {
                   mainAxisAlignment: MainAxisAlignment.end,
                   // crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Container(),
+                    Container(
+                      width: 150,
+                      child: Image.network(
+                        '${homeController.products[index].image}',
+                        fit: BoxFit.contain,
+                      ),
+                    ),
                     Text(
                       "${homeController.products[index].title}",
                     ),

@@ -27,6 +27,10 @@ class _CartPageState extends State<CartPage> {
                     Card(
                       child: Container(
                         width: 100.0,
+                        child: Image.network(
+                          '${widget.cartController.cartProducts[index].product.image}',
+                          fit: BoxFit.contain,
+                        ),
                       ),
                     ),
                     Column(

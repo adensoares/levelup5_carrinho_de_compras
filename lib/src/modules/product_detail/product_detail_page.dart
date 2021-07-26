@@ -77,7 +77,13 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                 children: [
                   Expanded(
                     flex: 3,
-                    child: Container(),
+                    child: Container(
+                      width: MediaQuery.of(context).size.width,
+                      child: Image.network(
+                        '${widget.productDetail.image}',
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.all(24.0),

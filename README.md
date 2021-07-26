@@ -1,16 +1,19 @@
-# levelup5_carrinho_de_compras
+# Level Up #5 - Carrinhho de Compras
 
-A new Flutter project.
+Quinto desafio proposto pela Raro Academy.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Level Up são desafios propostos pela Raro Academy para consolidar o conhecimento passado durante as aulas semanais da academia. Para o Level Up #5, foi solicitado que fizéssemos um carrinho de compras.
 
-A few resources to get you started if this is your first Flutter project:
+## Carrinho de Compras
+<img src="./assets/images/geekommerce.png" height="500" />
+<img src="./assets/images/geekommerce.gif" height="500" />
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Neste desafio foram utilizados os conceitos de gerenciamento de estados com a utilização da biblioteca MobX.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## To Do
+- [ ] Melhorar o design da aplicação.
+- [ ] Refatorar o código para separar o ProductDetailController. 
+- [ ] Adicionar preço total no carrinho de compras. 
+
