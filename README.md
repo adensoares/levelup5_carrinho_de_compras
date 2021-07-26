@@ -8,7 +8,7 @@ Level Up são desafios propostos pela Raro Academy para consolidar o conheciment
 
 ## Carrinho de Compras
 <img src="./assets/images/geekommerce.png" height="500" />
-<img src="./assets/images/geekommerce.gif" height="500" />
+<img src="./assets/images/Geekommerce.gif" height="500" />
 
 Neste desafio foram utilizados os conceitos de gerenciamento de estados com a utilização da biblioteca MobX.
 
