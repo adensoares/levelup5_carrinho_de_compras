@@ -7,8 +7,7 @@ Quinto desafio proposto pela Raro Academy.
 Level Up são desafios propostos pela Raro Academy para consolidar o conhecimento passado durante as aulas semanais da academia. Para o Level Up #5, foi solicitado que fizéssemos um carrinho de compras.
 
 ## Carrinho de Compras
-<img src="./assets/images/geekommerce.png" height="500" />
-<img src="./assets/images/Geekommerce.gif" height="500" />
+<img src="./assets/images/geekommerce.png" height="500" /><img src="./assets/images/Geekommerce.gif" height="500" />
 
 Neste desafio foram utilizados os conceitos de gerenciamento de estados com a utilização da biblioteca MobX.
 
