@@ -6,33 +6,17 @@ part 'home_controller.g.dart';
 class HomeController = HomeControllerBase with _$HomeController;
 
 abstract class HomeControllerBase with Store {
-  @observable
-  int shoppingCartCounter = 0;
-
-  @action
-  void increment() {
-    shoppingCartCounter++;
-  }
-
-  List<Product> products = [
-    Product(
+  List<ProductModel> products = [
+    ProductModel(
       title: "Berserk",
       price: 99.99,
     ),
-    Product(
-      title: "Berserk",
+    ProductModel(
+      title: "Hunter x Hunter",
       price: 99.99,
     ),
-    Product(
-      title: "Berserk",
-      price: 99.99,
-    ),
-    Product(
-      title: "Berserk",
-      price: 99.99,
-    ),
-    Product(
-      title: "Berserk",
+    ProductModel(
+      title: "Vagabond",
       price: 99.99,
     ),
   ];
